@@ -17,6 +17,8 @@ Theta* pathfinding is an Algorithm, introduced by Alex Nash in 2007. Theta* is v
 
 Theta* finds paths that have nearly the same length as the shortest paths in the continuous environments without the need for postprocessing technique(Firmayah, Masruroh & Fahrianto, 2016, p. 275-280).
 
+![Thetastar](https://user-images.githubusercontent.com/44691800/105644449-e6c8f600-5e95-11eb-8034-768a8fac7f0b.png)
+
 ## III.	Which one is better?
 According to the results of the study of Firmayah, Masruroh & Fahrianto A* and Theta* has the same completeness criteria and has time complecity which is relatively same. The A* pathfinding had the advantage of optimality in fewer number of nodes searched, whereas the Theta* has the advantage of the optimality the shortest route results. It can be concluded that A * is guaranteed to be the shortest path in graphs, but theta * has the shortest path in the continuous environments. In short: Theta* builds upon A*. 
 
