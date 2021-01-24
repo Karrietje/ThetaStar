@@ -9,7 +9,8 @@ I am a college student, who is currently in second year Digital Arts and Enterta
 ## I.	What is A* pathfinding?
 A pathfinding is an Algorithm, introduced by Peter Hart et al.,  to find the optimal path starting from the point where you are to your goal. It gets calculated by “using a heuristic function to prioritize the nodes (vertex) too be traversed, the cost is the distance it takes to walk from a node to another node” (Firmayah, Masruroh & Fahrianto, 2016, p. 275-280). The target of AI is to find the shortest but realistisc path to it’s target.
 The two important steps are discretize and search. Discretion simplifies “a continuous environment* into a graph”, while searching propagates “information along this graph to find a path from a given start vertex to a given goal vertex” (Nash & Koenig, 2019). There are a lot of different ways, but game developers prefer the A * pathfinding algorithm for its simplicity and optimality guarantees. However, recent studies have been conducted on a new type of path finding, called the Theta * path finding.
- 
+
+![AlphaStar](https://user-images.githubusercontent.com/44691800/105644394-9e113d00-5e95-11eb-85b9-abc380d793af.png)
  
 ## II.	What is Theta* pathfinding? 
 Theta* pathfinding is an Algorithm, introduced by Alex Nash in 2007. Theta* is very similar to A*. The biggest difference between them, is that Theta* allows the parent to be any visible vertex, when A* can only allow the parent to be a visible neighbourvertex. Theta* doesn’t have to follow a vertex that is one of his neighbours. On the image below (figure 16.2) you can clearly see that Theta* skips a few vertices, what makes it, quite frequently, shorter in a continuous environments. 
